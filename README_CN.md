@@ -1,61 +1,59 @@
-* [English](./README.md)        
-* [Chinese](./README_CN.md)
+* [英文](./README.md)        
+* [中文](./README_CN.md)
 
-**IMPORTANT NOTE:**
+**重点提示:**
 
-Thank you to all the amazing people for your support—this project has been a blast! With the release of Strapi 5, @Mcastres has launched an even more awesome demo/starter project called LaunchPad.
+感谢所有精彩的人的支持——这个项目太棒了！随着 Strapi 5 的发布，@Mcastres 推出了一个更棒的演示/入门项目，名为 **LaunchPad**。
 
-You can learn more about the LaunchPad app [here](https://strapi.io/blog/launchpad-demo-app) and check out the project repo: https://github.com/strapi/LaunchPad.
+您可以在[此处](https://strapi.io/blog/launchpad-demo-app) 了解有关   **LaunchPad** 应用程序的更多信息, 查看项目 repo：https ://github.com/strapi/LaunchPad 。
 
-What does this mean? We’ll be archiving this project and moving forward with LaunchPad as the new starter and demo.
+这意味着什么？我们将存档此项目，并以 **LaunchPad** 作为新的启动项目和 demo 继续前进。
 
-If you're interested in updating this project to Strapi 5, you can find the code in the following [branch](https://github.com/strapi/nextjs-corporate-starter/tree/strapi-5-update-process), and I’ve outlined the steps in this [blog post](https://strapi.io/blog/how-to-migrate-your-project-from-strapi-4-to-strapi-5).
+如果您有兴趣将此项目更新至 Strapi 5，您可以在以下[branch](https://github.com/strapi/nextjs-corporate-starter/tree/strapi-5-update-process "分支")中找到代码，我已经在此[blog post](https://strapi.io/blog/how-to-migrate-your-project-from-strapi-4-to-strapi-5 "博客文章")中概述了相关步骤。
 
-If you have any questions about the migration, feel free to ask here or join us during open office hours on Discord, where I’ll be available to answer them live.
+如果您对迁移有任何疑问，请随时在此处提问或在 **Discord** 的开放办公时间加入我们，我将现场为您解答。
 
-Morning Session: Join us at 4 AM CST (9:00 AM GMT) for our new early bird session, perfect for our global community members!
+上午会议：加入我们美国中部标准时间凌晨 4 点（格林威治标准时间上午 9 点）的早会，非常适合我们的全球社区成员！
 
-Afternoon Session: Don’t forget our regular session at 12:30 PM CST (6:30 PM GMT), a great time for an afternoon break and chat!
+下午会议：不要忘记我们 CST 下午 12:30（GMT 下午 6:30）的常规会议，这是下午休息和聊天的好时机！
 
 https://discord.com/invite/strapi
 
-
 # Strapi Starter Next 14, Tailwind, Typescript and Strapi
 
-note: This project was started with love by [Trecia](https://github.com/TreciaKS), [Daniel](https://github.com/malgamves) and [Paul](https://github.com/PaulBratslavsky). We were all new to Next 14 and Typescript. If you find any bugs or improvements feel free to create an issue. Thank you all for your support and participation.
+注意：这个项目是由 [Trecia](https://github.com/TreciaKS), [Daniel](https://github.com/malgamves)、和[Paul](https://github.com/PaulBratslavsky) 精心发起的。我们都是 Next 14 和 Typescript 的新手。如果您发现任何错误或需要改进，请随时创建问题。感谢大家的支持和参与。
 
 ![demo-site](https://user-images.githubusercontent.com/6153188/231865321-0da5e81f-4832-4cce-bcd1-ecd79e9b9cc3.gif)
 
 
 ## Hello Strapi
 
-Strapi Community Edition is a free and open-source headless CMS enabling you to manage any content, anywhere.
+Strapi Community Edition (社区版)是一款免费的开源无头 CMS，可让您在任何地方管理任何内容。
 
-- **Self-hosted or Cloud**: You can host and scale Strapi projects the way you want. You can save time by deploying to [Strapi Cloud](https://cloud.strapi.io/signups?source=github1) or deploy to the hosting platform you want**: AWS, Azure, Google Cloud, DigitalOcean.
-- **Modern Admin Pane**: Elegant, entirely customizable and a fully extensible admin panel.
-- **Multi-database support**: You can choose the database you prefer: PostgreSQL, MySQL, MariaDB, and SQLite.
-- **Customizable**: You can quickly build your logic by fully customizing APIs, routes, or plugins to fit your needs perfectly.
-- **Blazing Fast and Robust**: Built on top of Node.js and TypeScript, Strapi delivers reliable and solid performance.
-- **Front-end Agnostic**: Use any front-end framework (React, Next.js, Vue, Angular, etc.), mobile apps or even IoT.
-- **Secure by default**: Reusable policies, CORS, CSP, P3P, Xframe, XSS, and more.
-- **Powerful CLI**: Scaffold projects and APIs on the fly.
+**自托管或云：** 您可以按照自己想要的方式托管和扩展 Strapi 项目。您可以通过部署到Strapi Cloud或部署到您想要的托管平台来节省时间**：AWS、Azure、Google Cloud、DigitalOcean。
+**现代管理窗格：** 优雅、完全可定制且完全可扩展的管理面板。
+**多数据库支持**：您可以选择您喜欢的数据库：PostgreSQL、MySQL、MariaDB 和 SQLite。
+**可定制**：您可以通过完全定制 API、路线或插件来快速构建您的逻辑，以完美满足您的需求。
+**极快且强大**：Strapi 基于 Node.js 和 TypeScript 构建，提供可靠而稳定的性能。
+**前端自由**：使用任何前端框架（React、Next.js、Vue、Angular 等）、移动应用程序甚至物联网。
+**默认安全**：可重复使用的策略、CORS、CSP、P3P、Xframe、XSS 等。
+强大的 CLI：即时搭建项目和 APIs
 
 ## Features
 
-- **Content Types Builder**: Build the most flexible publishing experience for your content managers, by giving them the freedom to create any page on the go with [fields](https://docs.strapi.io/user-docs/content-manager/writing-content#filling-up-fields), components and [Dynamic Zones](https://docs.strapi.io/user-docs/content-manager/writing-content#dynamic-zones).
-- **Media Library**: Upload your images, videos, audio or documents to the media library. Easily find the right asset, edit and reuse it.
-- **Internationalization**: The Internationalization (i18n) plugin allows Strapi users to create, manage and distribute localized content in different languages, called "locales
-- **Role Based Access Control**: Create an unlimited number of custom roles and permissions for admin and end users.
-- **GraphQL or REST**: Consume the API using REST or GraphQL
+- **Content Types Builder** (内容类型构建器)：为内容管理员构建最灵活的发布体验，让他们可以自由地使用字段、组件和动态区域创建任何页面。
+- **Media Library** (媒体库)：将图片、视频、音频或文档上传到媒体库。轻松找到合适的资产，编辑并重复使用。
+- **Internationalization** (国际化)：国际化 (i18n) 插件允许 Strapi 用户创建、管理和分发不同语言的本地化内容，称为“语言环境
+- **Role Based Access Control** (基于角色的访问控制)：为管理员和最终用户创建无限数量的自定义角色和权限。
+- **GraphQL or REST**：使用 REST 或 GraphQL 使用 API .
 
-You can unlock additional features such as SSO, Audit Logs, Review Workflows in [Strapi Cloud](https://cloud.strapi.io/login?source=github1) or [Strapi Enterprise](https://strapi.io/enterprise?source=github1).
-
+您可以解锁[Strapi Cloud](https://cloud.strapi.io/login?source=github1) or [Strapi Enterprise](https://strapi.io/enterprise?source=github1) 中的其他功能，例如 SSO、审计日志、审查工作流。
 
 ## Getting Started
 
-If you prefer videos that guide you through the setup process you can find them [here](https://github.com/strapi/nextjs-corporate-starter/issues/71)
+如果你喜欢指导你完成设置过程的视频，可以在[这里](https://github.com/strapi/nextjs-corporate-starter/issues/71)找到。
 
-1. Clone the repository locally:
+1. 克隆项目到本地(Clone the repository locally):
 
 ```bash
   git clone https://github.com/strapi/nextjs-corporate-starter.git
@@ -63,13 +61,41 @@ If you prefer videos that guide you through the setup process you can find them 
   gh repo clone strapi/nextjs-corporate-starter
 ```
 
-2. Run `setup` command to setup frontend and backend dependencies:
+2. 前端(frontend)和后端(backend)分别安装依赖(Run `yarn` command to setup  and backend dependencies):
 
+提示：为了加快下载速度，先重新设置 yarn 镜像源地址。
+
+设置为淘宝镜像源，可以使用下面的命令：
 ```bash
-  yarn setup
+yarn config set registry https://registry.npmmirror.com
+```
+切回原镜像源，可以使用下面的命令：
+```bash
+yarn config set registry https://registry.yarnpkg.com
+```
+提前设置 **sharp** 包的镜像地址（不然国内,在下面安装依赖时，可能出现 "install sharp Command failed"
+```bash
+yarn config set sharp_binary_host https://npmmirror.com/mirrors/sharp
+
+yarn config set sharp_libvips_binary_host https://npmmirror.com/mirrors/sharp-libvips
 ```
 
-3. Next, navigate to your `/backend` directory and set up your `.env` file. You can use the `.env.example` file as reference:
+---
+
+然后执行：
+
+```bash
+# cd frontend
+  yarn
+```
+---
+
+```bash
+# cd backend
+ yarn
+```
+
+3. 接下来，导航到 /backend 目录并设置您的.env文件。可以使用 .env.example 文件作为参考：
 
 ```bash
 HOST=localhost
@@ -81,30 +107,30 @@ JWT_SECRET=tobemodified
 TRANSFER_TOKEN_SALT=tobemodified
 ```
 
-4. Start your project by running the following command:
+4. 在 /backend 目录，通过运行以下命令启动您的项目(backend)：
 
 ```bash
   yarn build
   yarn develop
 ```
 
-You will be prompted to create your first admin user.
+(在chrome/Edge 浏览器中) 系统提示您创建第一个管理员用户。
 
 ![admin-user](https://user-images.githubusercontent.com/6153188/231865420-5f03a90f-b893-4057-9634-9632920a7d97.gif)
 
-Great. You now have your project running. Let's add some data.
+太棒了! 现在项目已运行。让我们添加一些数据。
 
-## Seeding The Data
+## Seeding The Data（导入数据）
 
-We are going to use our DEITS feature which will alow to easily import data into your project.
+我们将使用DEITS 功能，它可以轻松地将数据导入您的项目。
 
-You can learn more about it in our documentation [here](https://docs.strapi.io/dev-docs/data-management).
+可以在[此处](https://docs.strapi.io/dev-docs/data-management)的文档中了解更多信息。
 
-In the root of our project we have our `seed-data.tar.gz` file. We will use it to seed our data.
+在项目根目录中，有我们的 **seed-data.tar.gz** 文件。将使用它来导入数据。
 
-1. Open up your terminal and make sure you are still in you `backend` folder.
+1. 打开 **终端** 并确保仍在 /backend 文件夹中。
 
-2. Run the following command to seed your data:
+2. 运行以下命令来播种您的数据：
 
 ```bash
   yarn strapi import -f ../seed-data.tar.gz
@@ -112,15 +138,17 @@ In the root of our project we have our `seed-data.tar.gz` file. We will use it t
 
 ![after-import](https://user-images.githubusercontent.com/6153188/231865491-05cb5818-a0d0-49ce-807e-a879f7e3070c.gif)
 
-This will import your data locally. Log back into your admin panel to see the newly imported data.
+这会将您的数据导入本地。重新登录管理面板即可查看新导入的数据。
 
-Here is a quick video covering initial setup and data seeding.
+以下是一个简短的视频，介绍初始设置和数据导入。
 
 https://github.com/strapi/nextjs-corporate-starter/assets/6153188/80f00bf5-d17b-449d-8a0d-7f0d9614f40b
 
-## Setting Up The Frontend
+## Setting Up The Frontend(前端设置)
 
-Next we need to switch to our `/frontend` directory and create our `.env` file and paste in the following.
+提示：这个过程很重要，涉及前端与后端的数据交互，必须正确设置（可以参考：[操作演示视频](https://www.youtube.com/watch?v=a23JvssqrrQ&t=199s)
+
+接下来我们需要切换到我们的 '/frontend' 目录并创建我们的 '.env'文件并粘贴以下内容。
 
 ```bash
 NEXT_PUBLIC_STRAPI_API_TOKEN=your-api-token
@@ -130,12 +158,38 @@ NEXT_PUBLIC_STRAPI_API_URL=http://localhost:1337
 
 ```
 
-Before starting our Next JS app we need to go inside our Strapi Admin and create two tokens that we will be using for **form submission** and displaying our **content**.
+在启动我们的 Next JS 应用程序之前，我们需要进入我们的 **Strapi Admin** 并创建两个令牌，我们将使用它们提交表单和显示我们的内容。
 
-Inside your Strapi Admin Panel navigate to Settings -> API Tokens and click on the `Create new API Token`.
+在您的 Strapi 管理面板中导航至 `Settings` -> `API Tokens`并单击 `Create new API Token` .
 
 ![api-tokens](https://user-images.githubusercontent.com/6153188/231865572-cebc5538-374c-4050-91cd-c303fae25a3d.png)
 
+
+```bash
+# 中文
+
+这是我们的令牌设置
+
+名称：公共 API 令牌内容
+描述：访问公共内容。
+令牌有效期：无限制
+令牌类型：自定义
+
+在权限中授予以下访问权限。
+
+|内容|	权限|
+|---|---|
+|文章	|find 和 findOne|
+|作者	|find 和 findOne|
+|类别	|find 和 findOne|
+|全球的	|寻找|
+|页	|find 和 findOne|
+|产品特色	|find 和 findOne|
+
+```
+
+```bash
+# 英文
 Here are our Token Settings
 
 Name: Public API Token Content
@@ -154,20 +208,45 @@ In Permissions lets give the following access.
 | Page            | find and findOne |
 | Product-feature | find and findOne |
 
+```
+
 ![permissions](https://user-images.githubusercontent.com/6153188/231865625-a3634d89-0f40-4a6d-a356-8f654abd88b9.gif)
 
-Once you have your token add it to your `NEXT_PUBLIC_STRAPI_API_TOKEN` variable name in the `.env` file.
+1. PUBLIC API TOKEN
 
-**Alternatively:** you can create a READ only Token that will give READ permission to all your endpoints.
+获得令牌后，将其添加到文件 `NEXT_PUBLIC_STRAPI_API_TOKEN` 中的变量名中`.env`(从后端<strapi-admin> 复制到前端 .env)。
 
-In this particular project this is not an issue. Although the above is the recommended way, just wanted to show you this option here as well.
+**或者**：您可以创建一个 `Read-only` 只读令牌，为所有端点提供读取权限。
 
-When creating a Token, just select the `Read-only` option from token type drop down.
+在这个特定的项目中，这不是问题。虽然以上是推荐的方法，但我也想在这里向您展示这个选项。
+
+创建令牌时，只需 `Read-only` 从令牌类型下拉菜单中选择选项。
 
 <img width="1093" alt="create-read-only-token" src="https://github.com/strapi/nextjs-corporate-starter/assets/6153188/3ea6c029-b296-4bbc-a5ce-33eedac52a03">
 
+2. Public API Form Submit TOKEN
+
 Next create a token that will allow us to submit our form.
 
+接下来创建一个允许我们提交表单`submit our form`的令牌`token` 。
+
+```bash
+# 中文
+名称：公共 API 表单提交
+描述：表单提交。
+令牌有效期：无限制 
+令牌类型：自定义
+
+在权限中授予以下访问权限
+
+| 内容 | 权限|
+| --------| :---------: |
+| 潜在客户表单提交 | 创建  |
+
+```
+
+```bash
+# 英文
 Name: Public API Form Submit
 Description: Form Submission.
 Token duration: Unlimited
@@ -179,19 +258,27 @@ In Permissions lets give the following access.
 | -------------------- | :---------: |
 | Lead-Form-Submission |   create    |
 
-Add your token to your `NEXT_PUBLIC_STRAPI_FORM_SUBMISSION_TOKEN` variable name in the `.env` file.
+```
 
-Once your environment variables are set you can start your frontend application by running `yarn dev`.
+将令牌添加到文件 `NEXT_PUBLIC_STRAPI_FORM_SUBMISSION_TOKEN` 中的变量名称 `.env` 中(从后端<strapi-admin> 复制到前端 .env)。
 
-You should now see your Next JS frontend.
+3. Next JS frontend running (前端运行)
+
+设置了环境变量，就可以通过运行来启动前端应用程序 `yarn dev`
+
+```bash
+yarn dev
+```
+
+您现在应该可以看到您的 Next JS 前端。
 
 ![frontend](https://user-images.githubusercontent.com/6153188/231865662-d870051f-4503-4a01-bc6b-635c7c5ca40d.png)
 
-## Start Both Projects Concurrently
+## Start Both Projects Concurrently（两个项目同时启动）
 
-We can also start both projects with one command using the `concurrently` package.
+我们还可以使用该concurrently包用一个命令启动两个项目。
 
-You can find the setting inside the `package.json` file inside the root folder.
+package.json您可以在根文件夹内的文件中找到该设置。
 
 ```json
 {
@@ -209,8 +296,18 @@ You can find the setting inside the `package.json` file inside the root folder.
   }
 }
 ```
-Go to the root folder and install the package, `yarn`
-You can start both apps by running `yarn dev`.
+
+转到根文件夹，先运行安装包 `yarn `命令
+```bash
+yarn
+```
+
+然后运行 `yarn dev` 来同时启动项目下的两个应用程序
+
+```bash
+yarn dev
+```
+OK，这个 demo 项目设置完成了，可以运行演示了！
 
 ## Conclusion
 
