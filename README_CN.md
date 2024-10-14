@@ -148,7 +148,7 @@ https://github.com/strapi/nextjs-corporate-starter/assets/6153188/80f00bf5-d17b-
 
 ## Setting Up The Frontend(前端设置)
 
-提示：这个过程很重要，涉及前端与后端的数据交互，必须正确设置（可以参考：[操作演示视频](https://www.youtube.com/watch?v=a23JvssqrrQ&t=199s)
+提示：这个过程很重要，涉及前端与后端的数据交互，必须正确设置可以参考：[操作演示视频](https://www.youtube.com/watch?v=a23JvssqrrQ&t=199s)
 
 接下来我们需要切换到我们的 '/frontend' 目录并创建我们的 '.env'文件并粘贴以下内容。
 
