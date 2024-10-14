@@ -82,7 +82,6 @@ yarn config set sharp_binary_host https://npmmirror.com/mirrors/sharp
 yarn config set sharp_libvips_binary_host https://npmmirror.com/mirrors/sharp-libvips
 ```
 
----
 
 然后执行：
 
@@ -90,7 +89,6 @@ yarn config set sharp_libvips_binary_host https://npmmirror.com/mirrors/sharp-li
 # cd frontend
   yarn
 ```
----
 
 ```bash
 # cd backend
@@ -215,6 +213,8 @@ In Permissions lets give the following access.
 
 ![permissions](https://user-images.githubusercontent.com/6153188/231865625-a3634d89-0f40-4a6d-a356-8f654abd88b9.gif)
 
+---
+
 1. PUBLIC API TOKEN
 
 获得令牌后，将其添加到文件 `NEXT_PUBLIC_STRAPI_API_TOKEN` 中的变量名中`.env`(从后端<strapi-admin> 复制到前端 .env)。
@@ -283,9 +283,9 @@ yarn dev
 
 我们还可以使用该concurrently包用一个命令启动两个项目。
 
-package.json您可以在根文件夹内的文件中找到该设置。
+package.json 可以在根文件夹内的文件中找到该设置。
 
-```json
+```bash
 {
   "scripts": {
     "frontend": "yarn dev --prefix ../frontend/",
@@ -307,7 +307,9 @@ package.json您可以在根文件夹内的文件中找到该设置。
 yarn
 ```
 
+
 然后运行 `yarn dev` 来同时启动项目下的两个应用程序
+
 
 ```bash
 yarn dev
