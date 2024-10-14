@@ -1,4 +1,7 @@
-&ensp  &ensp &ensp  [英文](./README.md) &ensp  &ensp &ensp  [中文](./README_CN.md)
+
+- [英文](./README.md) 
+
+- [中文](./README_CN.md)
 
 **重点提示:**
 
