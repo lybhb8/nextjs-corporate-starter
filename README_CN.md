@@ -184,7 +184,7 @@ NEXT_PUBLIC_STRAPI_API_URL=http://localhost:1337
 |文章	|find 和 findOne|
 |作者	|find 和 findOne|
 |类别	|find 和 findOne|
-|全球的	|寻找|
+|全球的	|find|
 |页	|find 和 findOne|
 |产品特色	|find 和 findOne|
 
