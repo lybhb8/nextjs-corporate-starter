@@ -5,7 +5,7 @@
 
 感谢所有精彩的人的支持——这个项目太棒了！随着 Strapi 5 的发布，@Mcastres 推出了一个更棒的演示/入门项目，名为 **LaunchPad**。
 
-您可以在[此处](https://strapi.io/blog/launchpad-demo-app) 了解有关   **LaunchPad** 应用程序的更多信息, 查看项目 repo：https ://github.com/strapi/LaunchPad 。
+您可以在[此处](https://strapi.io/blog/launchpad-demo-app) 了解有关   **LaunchPad** 应用程序的更多信息, 查看项目 repo：https://github.com/strapi/LaunchPad 。
 
 这意味着什么？我们将存档此项目，并以 **LaunchPad** 作为新的启动项目和 demo 继续前进。
 
