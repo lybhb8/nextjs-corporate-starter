@@ -227,10 +227,9 @@ In Permissions lets give the following access.
 
 <img width="1093" alt="create-read-only-token" src="https://github.com/strapi/nextjs-corporate-starter/assets/6153188/3ea6c029-b296-4bbc-a5ce-33eedac52a03">
 
+---
 
 2. Public API Form Submit TOKEN
-
-Next create a token that will allow us to submit our form.
 
 接下来创建一个允许我们提交表单`submit our form`的令牌`token` 。
 
