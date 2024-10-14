@@ -1,5 +1,4 @@
-* [English](./README.md)        
-* [Chinese](./README_CN.md)
+&ensp  &ensp &ensp [English](./README.md)  &ensp  &ensp &ensp       [Chinese](./README_CN.md)
 
 **IMPORTANT NOTE:**
 

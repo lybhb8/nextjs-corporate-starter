@@ -1,5 +1,4 @@
-* [英文](./README.md)        
-* [中文](./README_CN.md)
+&ensp  &ensp &ensp  [英文](./README.md) &ensp  &ensp &ensp  [中文](./README_CN.md)
 
 **重点提示:**
 
@@ -30,13 +29,13 @@ https://discord.com/invite/strapi
 
 Strapi Community Edition (社区版)是一款免费的开源无头 CMS，可让您在任何地方管理任何内容。
 
-**自托管或云：** 您可以按照自己想要的方式托管和扩展 Strapi 项目。您可以通过部署到Strapi Cloud或部署到您想要的托管平台来节省时间**：AWS、Azure、Google Cloud、DigitalOcean。
-**现代管理窗格：** 优雅、完全可定制且完全可扩展的管理面板。
-**多数据库支持**：您可以选择您喜欢的数据库：PostgreSQL、MySQL、MariaDB 和 SQLite。
-**可定制**：您可以通过完全定制 API、路线或插件来快速构建您的逻辑，以完美满足您的需求。
-**极快且强大**：Strapi 基于 Node.js 和 TypeScript 构建，提供可靠而稳定的性能。
-**前端自由**：使用任何前端框架（React、Next.js、Vue、Angular 等）、移动应用程序甚至物联网。
-**默认安全**：可重复使用的策略、CORS、CSP、P3P、Xframe、XSS 等。
+- **自托管或云：** 您可以按照自己想要的方式托管和扩展 Strapi 项目。您可以通过部署到Strapi Cloud或部署到您想要的托管平台来节省时间**：AWS、Azure、Google Cloud、DigitalOcean。
+- **现代管理窗格：** 优雅、完全可定制且完全可扩展的管理面板。
+- **多数据库支持**：您可以选择您喜欢的数据库：PostgreSQL、MySQL、MariaDB 和 SQLite。
+- **可定制**：您可以通过完全定制 API、路线或插件来快速构建您的逻辑，以完美满足您的需求。
+- **极快且强大**：Strapi 基于 Node.js 和 TypeScript 构建，提供可靠而稳定的性能。
+- **前端自由**：使用任何前端框架（React、Next.js、Vue、Angular 等）、移动应用程序甚至物联网。
+- **默认安全**：可重复使用的策略、CORS、CSP、P3P、Xframe、XSS 等。
 强大的 CLI：即时搭建项目和 APIs
 
 ## Features
@@ -174,7 +173,7 @@ NEXT_PUBLIC_STRAPI_API_URL=http://localhost:1337
 描述：访问公共内容。
 令牌有效期：无限制
 令牌类型：自定义
-
+```
 在权限中授予以下访问权限。
 
 |内容|	权限|
@@ -186,7 +185,7 @@ NEXT_PUBLIC_STRAPI_API_URL=http://localhost:1337
 |页	|find 和 findOne|
 |产品特色	|find 和 findOne|
 
-```
+
 
 ```bash
 # 英文
@@ -196,6 +195,7 @@ Name: Public API Token Content
 Description: Access to public content.
 Token duration: Unlimited
 Token type: Custom
+```
 
 In Permissions lets give the following access.
 
@@ -208,7 +208,7 @@ In Permissions lets give the following access.
 | Page            | find and findOne |
 | Product-feature | find and findOne |
 
-```
+
 
 ![permissions](https://user-images.githubusercontent.com/6153188/231865625-a3634d89-0f40-4a6d-a356-8f654abd88b9.gif)
 
@@ -224,6 +224,7 @@ In Permissions lets give the following access.
 
 <img width="1093" alt="create-read-only-token" src="https://github.com/strapi/nextjs-corporate-starter/assets/6153188/3ea6c029-b296-4bbc-a5ce-33eedac52a03">
 
+
 2. Public API Form Submit TOKEN
 
 Next create a token that will allow us to submit our form.
@@ -236,6 +237,7 @@ Next create a token that will allow us to submit our form.
 描述：表单提交。
 令牌有效期：无限制 
 令牌类型：自定义
+```
 
 在权限中授予以下访问权限
 
@@ -243,7 +245,7 @@ Next create a token that will allow us to submit our form.
 | --------| :---------: |
 | 潜在客户表单提交 | 创建  |
 
-```
+
 
 ```bash
 # 英文
@@ -251,6 +253,7 @@ Name: Public API Form Submit
 Description: Form Submission.
 Token duration: Unlimited
 Token type: Custom
+```
 
 In Permissions lets give the following access.
 
@@ -258,7 +261,7 @@ In Permissions lets give the following access.
 | -------------------- | :---------: |
 | Lead-Form-Submission |   create    |
 
-```
+
 
 将令牌添加到文件 `NEXT_PUBLIC_STRAPI_FORM_SUBMISSION_TOKEN` 中的变量名称 `.env` 中(从后端<strapi-admin> 复制到前端 .env)。
 
