@@ -1,7 +1,10 @@
+<div align="center">
 
-- [英文](./README.md) 
+[英文](./README.md) |
+[中文](./README_CN.md)
 
-- [中文](./README_CN.md)
+</div>
+
 
 **重点提示:**
 
